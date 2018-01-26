@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+}
+
+div {
+    min-height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #57df13;
+    font-weight: bold;
+    font-family: verdana, sans-serif;
+}
+
+.inner {
+    width: 50%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header .inner {
+    font-size: 125%
+}
+
+.menu .inner ul {
+    list-style-type: none;
+}
+
+.menu .inner li {
+    float: left;
+    padding-left: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.menu .inner li:hover {
+    font-size: 150%;
+}
